@@ -1,0 +1,29 @@
+.first {
+  background-color: #a88bb0;
+}
+.roxlogo {
+  max-height: 30px;
+}
+.maingym {
+  background-image: url(maingym.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 220vh 140vh;
+}
+.gym {
+  background-image: url(gym.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contentaboutus {
+  margin: 10vh;
+  margin-top: 20vh;
+  font-size: 4vh;
+  color: rgb(39, 36, 42);
+}
+@media (min-width: 576px) {
+  .roxlogo {
+    max-height: 50px;
+  }
+}
